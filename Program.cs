@@ -17,6 +17,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        string[] auto = { "Banshee", "Zentorno", "Sultan", "Sanchez", "Buzzard" };
+        Console.WriteLine("Liste des véhicules disponibles dans le garage: ");
+        for (int i = 0; i < auto.Length; i++)
+        {
+            Console.WriteLine(auto[i]);
+        }
     }
 }
