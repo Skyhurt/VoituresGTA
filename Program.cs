@@ -17,11 +17,16 @@ class Program
 {
     static void Main(string[] args)
     {
+        int choiceAuto;
         string[] auto = { "Banshee", "Zentorno", "Sultan", "Sanchez", "Buzzard" };
         Console.WriteLine("Liste des véhicules disponibles dans le garage: ");
         for (int i = 0; i < auto.Length; i++)
         {
             Console.WriteLine(auto[i]);
+            Console.WriteLine("Choisi un véhicule dans la liste en tapant son numéro (de 1 à 5:");
+            choiceAuto = Convert.ToInt32(Console.ReadLine());
+
+
         }
     }
 }
